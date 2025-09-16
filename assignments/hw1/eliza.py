@@ -40,7 +40,7 @@ def response(instring):
     elif instring == "No":
         return "Why not?"
     elif instring.startswith("I never "):
-        return "You really never " + reflect(after(instring, "I never ")) + "?"
+        return "You really never " + reflect(after(instring, "I never ")) + " at all?"
     else:
         if len(instring) % 3 == 1:
             return "Could you elaborate on that?"
